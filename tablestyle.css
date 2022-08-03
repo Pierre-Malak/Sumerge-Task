@@ -1,0 +1,26 @@
+.centertable {
+    margin-left: auto;
+    margin-right: auto;
+    background-color:lavender;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    width: 80%;
+    border-collapse: collapse;
+  }
+  body{background-color:lightsteelblue; }
+  h1{text-align: center;
+color: black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color:white;}
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {background-color:azure ;}
+  th {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  tr:nth-child(even) {background-color:aliceblue;}
